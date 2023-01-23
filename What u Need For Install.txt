@@ -1,0 +1,9 @@
+1-Python
+2-PIP
+3-CMD or PowerShell
+V-put that command-V
+pip install tkinter
+pip install youtube_dl
+4-Ready Download Your Sounds But u can Use Spotify lol
+5-I Wil make a MP4 Downloader
+6-End
