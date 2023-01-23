@@ -17,19 +17,19 @@ class App:
         self.initUI()
 
     def initUI(self):
-        self.master.configure(bg='blue')
+        self.master.configure(bg='black')
         self.master.title("Made by JavaUpdated")
 
-        self.label = tk.Label(self.master, text="Welcome to MP3 Installer:", fg='white', bg='blue')
+        self.label = tk.Label(self.master, text="Welcome to MP3 Installer:", fg='green', bg='black')
         self.label.pack()
 
-        self.entry = tk.Entry(self.master, fg='black', bg='white')
+        self.entry = tk.Entry(self.master, fg='green', bg='gray')
         self.entry.pack()
 
-        self.folder_button = tk.Button(self.master, text="Pasta", command=self.selectFolder, fg='white', bg='blue')
+        self.folder_button = tk.Button(self.master, text="Pasta", command=self.selectFolder, fg='green', bg='black')
         self.folder_button.pack()
 
-        self.download_button = tk.Button(self.master, text="Instala", command=self.download, fg='white', bg='blue')
+        self.download_button = tk.Button(self.master, text="Instala", command=self.download, fg='green', bg='black')
         self.download_button.pack()
 
         # Set default folder path
