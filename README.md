@@ -1,5 +1,5 @@
 <h1 align="center">MP3 Installer</h1>
-<p align="center">Creator Note:This project is out of fashion but I use it and I didn't want to lose it so..</p>
+<p align="center">Creator Note: This project is out of fashion but I use it and I didn't want to lose it so..</p>
 <p align="center">
   
 ## How Install?
