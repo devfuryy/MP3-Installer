@@ -26,10 +26,10 @@ class App:
         self.entry = tk.Entry(self.master, fg='green', bg='gray')
         self.entry.pack()
 
-        self.folder_button = tk.Button(self.master, text="Pasta", command=self.selectFolder, fg='green', bg='black')
+        self.folder_button = tk.Button(self.master, text="Set Folder", command=self.selectFolder, fg='green', bg='black')
         self.folder_button.pack()
 
-        self.download_button = tk.Button(self.master, text="Instala", command=self.download, fg='green', bg='black')
+        self.download_button = tk.Button(self.master, text="Install!", command=self.download, fg='green', bg='black')
         self.download_button.pack()
 
         # Set default folder path
